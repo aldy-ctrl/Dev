@@ -81,7 +81,7 @@ header ul li a:hover{
     color: #758874;
 }
 .search{
-    padding: 24px 60px;
+    padding: 24px 0;
     float: left;
 }
 input{

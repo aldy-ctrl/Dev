@@ -14,19 +14,22 @@ a{
 .topmenu ul li{
     display: inline-block;
     color: white;
-    margin-left: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .topmenu ul li:hover{
     display: inline-block;
     color: black;
-    margin-left: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 #topmenu1{
     float: right;
-    font-size: 14px;
+    font-size: 12px;
+    margin-top: 3px;
 }
 .container1{
-    width: 98%;
+    width: 95%;
     margin: 0 auto;
 }
 .container1:after{
@@ -45,18 +48,17 @@ a{
 }
 header{
     background-color: whitesmoke;
+    border-bottom: 5px solid;
 }
 header h1{
     float: left;
     padding: 15px 0;
     color: black;
-    margin-left: 15px;
 }
 header h1:hover{
     float: left;
     padding: 15px 0;
     color: #758874;
-    margin-left: 15px;
 }
 header ul{
     float: right;
@@ -65,39 +67,39 @@ header ul li{
     display: inline-block;
 }
 header ul li a{
+    padding: 24px 15px;
     display: inline-block;
-    padding: 24px 0;
-    margin-left: 15px;
     color: black;
 }
 header ul li a:hover{
+    padding: 24px 15px;
     display: inline-block;
-    padding: 24px 0;
-    margin-left: 15px;
     color: #758874;
 }
+header ul li a i{
+    display: inline-block;
+    color: black;
+}
+header ul li a i:hover{
+    display: inline-block;
+    color: #758874;
+}
+.box{
+    padding: 17px 65px;
+}
 .search{
-    padding: 24px 0;
-    float: left;
-}
-input{
-    padding: 5px 5px;
     background-color: whitesmoke;
-    text-align: center;
-    border: none;
-}
-input:focus-visible{
+    width: 650px;
     padding: 5px 5px;
-    background-color: whitesmoke;
+    border: 3px solid;
+    border-radius: 30px;
     text-align: center;
-    border: none;
 }
-.container2 i{
-    padding-left: 20px;
+.search:focus{
+    outline: none;
 }
 .banner{
-    height: 71vh;
-    border: 2px solid;
+    height: 65vh;
     background-image: url("../images/banner.jpg");
     background-size: cover;
     position: relative;
@@ -116,11 +118,28 @@ input:focus-visible{
     background-color: rgba(117, 136, 116, 0.70);
 }
 .banner h2{
+    color: #373f34;
+    z-index: 1;
+    padding: 24px 20px;
+    font-style: oblique;
+    font-size: 22pt;
+}
+.banner h5{
     color: whitesmoke;
     z-index: 1;
-    padding: 20px 25px;
-    border: 3px solid;
+    padding: 24px 20px;
+    border-left: 3px solid;
 }
 section{
     padding: 50px 0;
+}
+footer{
+    padding: 18px 0;
+    background-color: #333333;
+    border-bottom: 1px solid;
+}
+footer h5{
+    text-align: center;
+    font-size: 8pt;
+    color: whitesmoke;
 }

@@ -96,7 +96,7 @@ input:focus-visible{
     padding-left: 20px;
 }
 .banner{
-    height: 60vh;
+    height: 71vh;
     border: 2px solid;
     background-image: url("../images/banner.jpg");
     background-size: cover;
